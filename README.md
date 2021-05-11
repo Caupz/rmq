@@ -33,3 +33,8 @@ You can create multiple bindings:
 And to emit a log with a routing key "kern.critical" type:
 
 `./emit_log_topic.js "kern.critical" "A critical kernel error"`
+
+## Tutorial 6
+
+`node rpcServer.js`
+`node rpcClient.js 30`
